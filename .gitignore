@@ -1,3 +1,4 @@
-./.yarn
+.env
+.yarn
 .pnp.cjs
 yarn.lock
