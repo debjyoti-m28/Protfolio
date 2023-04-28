@@ -7,9 +7,6 @@ const startServer = () => {
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended: true}));
 
-    app.use("/hey", (req, res) => {
-        res.status(200).json("Hiii Debjyoti");
-    })
     app.listen(PORT, ()=> {
        console.log(`Server is running on ${PORT}`);
     });
